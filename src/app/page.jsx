@@ -9,10 +9,10 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="style.container">
+    <div className={styles.container}>
         <Featured />
         <CategoryList />
-      <div className="style.content">
+      <div className={styles.content}>
         <CardList />
         <Menu />
       </div>
