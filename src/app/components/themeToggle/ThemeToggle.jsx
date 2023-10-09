@@ -7,7 +7,7 @@ import { ThemeContext } from "@/context/ThemeContext";
 export const ThemeToggle = () => {
 
   const { theme, toggle } = useContext(ThemeContext);
-  console.log(theme)
+  
   return (
     <div className={styles.container} onClick={toggle}>
       <Image src="/moon.png" alt="" width={14} height={14}/>
